@@ -8,3 +8,4 @@ def match(array)
     word.sort == @word.split(" ").sort 
 end
 end
+end
