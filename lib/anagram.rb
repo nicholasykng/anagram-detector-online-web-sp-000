@@ -4,6 +4,7 @@ def initialize(word)
   @word = word
 end
 def match(array)
-    @word.split(" ")
+  array.collect do |word|
+    word.sort == @word.split(" ").sort 
 end
 end
